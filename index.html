@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kasper | Template Two</title>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/kasper.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="landing">
+        <!-- Header -->
+        <header class="container flex">
+            <img src="images/logo.png" alt="">
+            <nav class="flex">
+                <i class="fas fa-bars toggle-menu menu"></i>
+                <ul class="flex">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="form">
+                    <i class="fas fa-search search"></i>
+                </div>
+            </nav>
+        </header>
+        <!-- Landing -->
+        <div class="content">
+            <div class="text">
+                <h3>Hello World! <span>We Are Kasper We Make Art.</span></h3>
+                <p>Curabitur arcu eweb, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+            </div>
+            <i class="fas fa-angle-left change-background fa-2x"></i>
+            <i class="fas fa-angle-right change-background fa-2x"></i>
+            <ul class="bullets flex">
+                <li></li>
+                <li class="active"></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <section class="services">
+        <div class="main-heading">
+            <h2>services</h2>
+            <p>Curabitur arcu eweb, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+        </div>
+        <div class="container flex">
+            <div class="box flex">
+                <i class="fas fa-desktop fa-3x"></i>
+                <div class="text">
+                    <h3>Vorem amet intuitive</h3>
+                    <p>
+                        Curabitur arcu eweb, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                        tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                    </p>
+                </div>
+            </div>
+            <div class="box flex">
+                <i class="fas fa-camera fa-3x"></i>
+                <div class="text">
+                    <h3>Vorem amet intuitive</h3>
+                    <p>
+                        Curabitur arcu eweb, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                        tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                    </p>
+                </div>
+            </div>
+            <div class="box flex">
+                <i class="fas fa-cog fa-3x"></i>
+                <div class="text">
+                    <h3>Vorem amet intuitive</h3>
+                    <p>
+                        Curabitur arcu eweb, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                        tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                    </p>
+                </div>
+            </div>
+            <div class="box flex">
+                <i class="fas fa-pencil-ruler fa-3x"></i>
+                <div class="text">
+                    <h3>Vorem amet intuitive</h3>
+                    <p>
+                        Curabitur arcu eweb, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                        tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Design -->
+    <section class="design flex">
+        <div class="image">
+            <img src="/images/mobile.png" alt="">
+        </div>
+        <div class="info">
+            <h2>OUR DESIGN COMES WITH...</h2>
+            <ul>
+                <li>Responsive Design</li>
+                <li>Modern And Clean Design</li>
+                <li>Clean Code</li>
+                <li>Browser Friendly</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio">
+        <div class="main-heading">
+            <h2>Portfolio</h2>
+            <p>Curabitur arcu eweb, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+        </div>
+        <ul class="flex">
+            <li data-filter=".all" class="active">All</li>
+            <li data-filter=".app">App</li>
+            <li data-filter=".dog">Study</li>
+            <li data-filter=".print">Web</li>
+            <li data-filter=".app">Print</li>
+        </ul>
+        <div class="img-container flex">
+            <div class="all app card">
+                <div class="image">
+                    <img src="/images/shuffle-01.jpg" alt="">
+                </div>
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>doggraphy</p>
+                </div>
+            </div>
+            <div class="all app card">
+                <div class="image">
+                    <img src="/images/shuffle-02.jpg" alt="">
+                </div>
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>doggraphy</p>
+                </div>
+            </div>
+            <div class="all web card">
+                <div class="image">
+                    <img src="/images/shuffle-03.jpg" alt="">
+                </div>
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>doggraphy</p>
+                </div>
+            </div>
+            <div class="all web card">
+                <div class="image">
+                    <img src="/images/shuffle-04.jpg" alt="">
+                </div>
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>doggraphy</p>
+                </div>
+            </div>
+            <div class="all print card">
+                <div class="image">
+                    <img src="/images/shuffle-05.jpg" alt="">
+                </div>
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>doggraphy</p>
+                </div>
+            </div>
+            <div class="all print card">
+                <div class="image">
+                    <img src="/images/shuffle-06.jpg" alt="">
+                </div>
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>doggraphy</p>
+                </div>
+            </div>
+            <div class="all dog card">
+                <div class="image">
+                    <img src="/images/shuffle-07.jpg" alt="">
+                </div>
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>doggraphy</p>
+                </div>
+            </div>
+            <div class="all dog card">
+                <div class="image">
+                    <img src="/images/shuffle-08.jpg" alt="">
+                </div>
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>doggraphy</p>
+                </div>
+            </div>
+        </div>
+        <div class="more"><a href="#">More</a></div>
+    </section>
+
+    <!-- Video -->
+    <section class="video">
+        <video autoplay loop muted>
+            <source src="/images/awesome-video.mp4" type="video/mp4">
+        </video>
+        <div class="text">
+            <h3>SUPER AWESOME VIDEO HERE</h3>
+            <p>Its All You Need</p>
+            <div class="button"><a href="#">SEE MORE</a></div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about">
+        <div class="main-heading">
+            <h2>ABOUT US</h2>
+            <p>Curabitur arcu eweb, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+        </div>
+        <div class="content">
+            <img src="/images/about.png" alt="">
+            <div class="stats">
+                <div class="container flex count">
+                    <div class="stats-item">
+                        <i class="fas fa-mug-hot"></i>
+                        <h2 data-goal="500">0</h2>
+                    </div>
+                    <div class="stats-item">
+                        <i class="far fa-folder"></i>
+                        <h2 data-goal="290">0</h2>
+                    </div>
+                    <div class="stats-item">
+                        <i class="far fa-envelope"></i>
+                        <h2 data-goal="215">0</h2>
+                    </div>
+                    <div class="stats-item">
+                        <i class="fas fa-trophy"></i>
+                        <h2 data-goal="548">0</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container flex">
+            <div class="cont">
+                <h2>TESTIMONIALS</h2>
+                <p>Curabitur arcu eweb, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+                <div class="item flex">
+                    <img src="/images/skills-01.jpg" alt="">
+                    <div class="info">
+                        <p>Curabitur arcu eweb, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+                        <span>John Doe, CEO</span>
+                    </div>
+                </div>
+                <div class="item flex">
+                    <img src="/images/skills-02.jpg" alt="">
+                    <div class="info">
+                        <p>Curabitur arcu eweb, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+                        <span>John Doe, CEO</span>
+                    </div>
+                </div>
+                <ul class="bullets flex">
+                    <li></li>
+                    <li class="active"></li>
+                    <li></li>
+                </ul>
+            </div>
+            
+            <div class="cont">
+                <h2>SKILLS</h2>
+                <p>Curabitur arcu eweb, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+                <div class="prog-holder">
+                    <h4>Adobe</h4>
+                    <div class="prog">
+                        <span style="width: 0" data-width="90%"></span>
+                    </div>
+                </div>
+                <div class="prog-holder">
+                    <h4>Html & Css</h4>
+                    <div class="prog">
+                        <span style="width: 0" data-width="80%"></span>
+                    </div>
+                </div>
+                <div class="prog-holder">
+                    <h4>JavaScript</h4>
+                    <div class="prog">
+                        <span style="width: 0" data-width="77%"></span>
+                    </div>
+                </div>
+                <div class="prog-holder">
+                    <h4>BootStrap</h4>
+                    <div class="prog">
+                        <span style="width: 0" data-width="95%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote -->
+    <section class="quote">
+        <div class="container">
+            <q>accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</q>
+            <span>John Doe</span>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing">
+        <div class="main-heading">
+            <h2>Pricing</h2>
+            <p>Curabitur arcu eweb, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+        </div>
+        <div class="container flex">
+            <div class="box">
+                <div class="head">
+                    <h3>Basic</h3>
+                    <h2>19</h2>
+                </div>
+                <ul>
+                    <li>Feature No 1</li>
+                    <li>Extra Feature</li>
+                    <li>Extra Feature No 2</li>
+                    <li>Feature</li>
+                </ul>
+                <button>Buy Now</button>
+            </div>
+            <div class="box">
+                <div class="head">
+                    <h3>PRO</h3>
+                    <h2>29</h2>
+                </div>
+                <ul>
+                    <li>Feature No 1</li>
+                    <li>Extra Feature</li>
+                    <li>Extra Feature No 2</li>
+                    <li>Feature</li>
+                </ul>
+                <button>Buy Now</button>
+            </div>
+            <div class="box">
+                <div class="head">
+                    <h3>PREMIUM</h3>
+                    <h2>49</h2>
+                </div>
+                <ul>
+                    <li>Feature No 1</li>
+                    <li>Extra Feature</li>
+                    <li>Extra Feature No 2</li>
+                    <li>Feature</li>
+                </ul>
+                <button>Buy Now</button>
+            </div>
+            <div class="box">
+                <div class="head">
+                    <h3>PLATINUM</h3>
+                    <h2>59</h2>
+                </div>
+                <ul>
+                    <li>Feature No 1</li>
+                    <li>Extra Feature</li>
+                    <li>Extra Feature No 2</li>
+                    <li>Feature</li>
+                </ul>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="bottom">
+            <h3>Contact us if you have special request</h3>
+            <a href="#">Contact-Us</a>
+        </div>
+    </section>
+
+    <section class="subscribe">
+        <div class="container">
+          <form action="">
+            <i class="far fa-envelope fa-lg"></i>
+            <input type="email" name="mail" placeholder="Your Email" />
+            <input type="submit" value="Subscribe" />
+          </form>
+          <p>
+            Curabitur arcu eweb, accumsan id imperdiet et, porttitor at sem. Mauris blan dit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+    </section>
+
+    <section class="cotact-us">
+        <div class="main-heading">
+            <h2>CONTACT US</h2>
+            <p>Curabitur arcu eweb, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+        </div>
+        <div class="container flex">
+            <form action="">
+                <input class="main-input" type="text" name="name" placeholder="Your Name">
+                <input class="main-input" type="email" name="name" placeholder="Your Email">
+                <textarea class="main-input" name="message" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+            <div class="info">
+                <h3>GET IN TOUCH</h3>
+                <address>+00 123.456.789 <span>+00 123.456.789</span></address>
+                <h3>WHERE WE ARE</h3>
+                <address>Awesome Address 17 <span>New York, NYC</span> <span>123-4567-890</span><span>USA</span></address>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <img src="/images/logo.png" alt="">
+            <h3>WE ARE SOCIAL</h3>
+            <div class="social-icons flex">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fas fa-home"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <p class="copyright">&copy; 2021 <span>Kasper</span> All Right Reserved</p>
+        </div>
+    </footer>
+
+    <span class="button-up">UP</span>
+
+
+    <script src="/main.js"></script>
+</body>
